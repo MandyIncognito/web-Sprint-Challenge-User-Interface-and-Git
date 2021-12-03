@@ -79,6 +79,7 @@ nav{
     width:100%;
     padding: 20px 2%;
     display:flex;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     position:static;
     align-items: baseline;
@@ -207,3 +208,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ABOUT PAGE */
+
+.about-info{
+    border-bottom: 2px dotted black
+}
+
+.about-middle-info{
+    display:flex;
+    align-content: space-around;
+}
+
